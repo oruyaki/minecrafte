@@ -358,8 +358,11 @@
       "cooked_porkchop": "2026-04-20 17:50:50 -0300",
       "apple": "2026-04-20 17:19:07 -0300",
       "bread": "2026-04-20 20:08:51 -0300",
+      "golden_apple": "2026-04-28 23:27:07 -0300",
+      "cooked_rabbit": "2026-04-28 23:11:21 -0300",
       "cooked_chicken": "2026-04-20 17:38:50 -0300",
       "suspicious_stew": "2026-04-22 15:54:08 -0300",
+      "rotten_flesh": "2026-04-28 23:28:09 -0300",
       "cooked_cod": "2026-04-20 19:01:13 -0300",
       "cooked_beef": "2026-04-20 18:38:46 -0300",
       "baked_potato": "2026-04-20 20:07:37 -0300",
@@ -562,12 +565,16 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2026-04-22 16:24:43 -0300",
+      "minecraft:cave_spider": "2026-04-28 23:19:27 -0300",
       "minecraft:skeleton": "2026-04-20 17:37:52 -0300",
       "minecraft:phantom": "2026-04-22 18:12:33 -0300",
+      "minecraft:enderman": "2026-04-28 23:32:31 -0300",
+      "minecraft:witch": "2026-04-28 23:21:20 -0300",
       "minecraft:spider": "2026-04-20 17:48:56 -0300",
       "minecraft:zombie": "2026-04-20 17:25:42 -0300",
       "minecraft:creeper": "2026-04-20 19:49:52 -0300",
       "minecraft:drowned": "2026-04-20 19:07:49 -0300",
+      "minecraft:zombie_villager": "2026-04-28 23:26:56 -0300",
       "minecraft:ghast": "2026-04-22 16:10:19 -0300"
     },
     "done": false
@@ -5520,6 +5527,7 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2026-04-22 16:09:50 -0300",
+      "minecraft:soul_sand_valley": "2026-04-29 00:21:19 -0300",
       "minecraft:basalt_deltas": "2026-04-22 14:50:37 -0300",
       "minecraft:warped_forest": "2026-04-22 17:17:23 -0300"
     },
@@ -6938,6 +6946,150 @@
   "minecraft:recipes/misc/purple_dye": {
     "criteria": {
       "has_blue_dye": "2026-04-22 19:00:28 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2026-04-28 23:11:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2026-04-28 23:11:41 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/onion_soup": {
+    "criteria": {
+      "has_any_ingredient": "2026-04-28 23:26:56 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/rope_fence_gate": {
+    "criteria": {
+      "has_rope": "2026-04-28 23:28:49 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2026-04-28 23:11:33 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2026-04-29 00:21:22 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/rope_fence": {
+    "criteria": {
+      "has_rope": "2026-04-28 23:28:49 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/zinc_ingot_from_compacting": {
+    "criteria": {
+      "has_item": "2026-04-29 00:07:44 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2026-04-28 23:11:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2026-04-28 23:11:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2026-04-28 23:41:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2026-04-28 23:11:33 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2026-04-28 23:11:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-04-28 23:26:20 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2026-04-28 23:11:33 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/scoria": {
+    "criteria": {
+      "has_item": "2026-04-29 00:21:26 -0300"
+    },
+    "done": true
+  },
+  "create:honey_drain": {
+    "criteria": {
+      "0": "2026-04-28 23:10:01 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2026-04-28 23:11:41 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/safety_net": {
+    "criteria": {
+      "has_rope": "2026-04-28 23:28:49 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2026-04-28 23:41:03 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2026-04-29 00:21:22 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2026-04-28 23:11:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2026-04-28 23:11:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-04-28 23:26:20 -0300"
     },
     "done": true
   },
