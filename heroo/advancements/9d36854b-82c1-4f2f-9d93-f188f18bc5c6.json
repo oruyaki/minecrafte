@@ -6949,6 +6949,60 @@
     },
     "done": true
   },
+  "create:honey_drain": {
+    "criteria": {
+      "0": "2026-04-28 23:10:01 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2026-04-28 23:11:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2026-04-28 23:11:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2026-04-28 23:11:33 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2026-04-28 23:11:33 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2026-04-28 23:11:33 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2026-04-28 23:11:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2026-04-28 23:11:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2026-04-28 23:11:35 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_banner": {
     "criteria": {
       "has_brown_wool": "2026-04-28 23:11:41 -0300"
@@ -6958,6 +7012,24 @@
   "minecraft:recipes/decorations/brown_bed": {
     "criteria": {
       "has_brown_wool": "2026-04-28 23:11:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2026-04-28 23:11:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-04-28 23:26:20 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-04-28 23:26:20 -0300"
     },
     "done": true
   },
@@ -6973,87 +7045,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_carpet": {
-    "criteria": {
-      "has_gray_wool": "2026-04-28 23:11:33 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_torch": {
-    "criteria": {
-      "has_soul_sand": "2026-04-29 00:21:22 -0300"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/decorations/rope_fence": {
     "criteria": {
       "has_rope": "2026-04-28 23:28:49 -0300"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/materials/zinc_ingot_from_compacting": {
-    "criteria": {
-      "has_item": "2026-04-29 00:07:44 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_gray_bed": {
-    "criteria": {
-      "has_light_gray_wool": "2026-04-28 23:11:35 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
-    "criteria": {
-      "has_cooked_rabbit": "2026-04-28 23:11:18 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dispenser": {
-    "criteria": {
-      "has_bow": "2026-04-28 23:41:04 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_banner": {
-    "criteria": {
-      "has_gray_wool": "2026-04-28 23:11:33 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_gray_carpet": {
-    "criteria": {
-      "has_light_gray_wool": "2026-04-28 23:11:35 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/firework_rocket_simple": {
-    "criteria": {
-      "has_gunpowder": "2026-04-28 23:26:20 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_bed": {
-    "criteria": {
-      "has_gray_wool": "2026-04-28 23:11:33 -0300"
-    },
-    "done": true
-  },
-  "create:recipes/misc/smelting/scoria": {
-    "criteria": {
-      "has_item": "2026-04-29 00:21:26 -0300"
-    },
-    "done": true
-  },
-  "create:honey_drain": {
-    "criteria": {
-      "0": "2026-04-28 23:10:01 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_carpet": {
-    "criteria": {
-      "has_brown_wool": "2026-04-28 23:11:41 -0300"
     },
     "done": true
   },
@@ -7069,27 +7063,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2026-04-28 23:41:04 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/zinc_ingot_from_compacting": {
+    "criteria": {
+      "has_item": "2026-04-29 00:07:44 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2026-04-29 00:21:22 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_soul_sand": "2026-04-29 00:21:22 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_banner": {
+  "create:recipes/misc/smelting/scoria": {
     "criteria": {
-      "has_light_gray_wool": "2026-04-28 23:11:35 -0300"
+      "has_item": "2026-04-29 00:21:26 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+  "constructionstick:recipes/tools/copper_stick": {
     "criteria": {
-      "has_cooked_rabbit": "2026-04-28 23:11:18 -0300"
+      "has_item": "2026-04-30 17:32:02 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/tnt": {
+  "constructionstick:recipes/tools/iron_stick": {
     "criteria": {
-      "has_gunpowder": "2026-04-28 23:26:20 -0300"
+      "has_item": "2026-04-30 17:32:02 -0300"
     },
     "done": true
   },
